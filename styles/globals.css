@@ -31,11 +31,11 @@
 .bg-blue-gradient {
   background: linear-gradient(157.81deg,
   #e6f9d1 0.89%,  /* Tom mais claro */
-  #c4f08f 17.23%, /* Verde suave */``
-  #a3e856 42.04%, /* Verde intermediário */
-  #85d82b 55.12%, /* Verde intenso */
-  #72b11f 71.54%, /* Verde principal */
-  #609417 100%);  /* Verde escuro */
+  /*#c4f08f 17.23%,  /* Verde suave */
+  /*#a3e856 42.04%, /* Verde intermediário */
+  /*#85d82b 55.12%, /* Verde intenso */
+  /*#72b11f 71.54%, /* Verde principal */
+  /*#609417 100%);  /* Verde escuro */
 }
 
 .bg-black-gradient {
