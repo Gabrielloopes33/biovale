@@ -25,18 +25,19 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  /*text-fill-color: transparent;
+ 
 }
 
 .bg-blue-gradient {
-  background: linear-gradient(157.81deg,
-  #e6f9d1 0.89%,  /* Tom mais claro */
-  /*#c4f08f 17.23%,  /* Verde suave */
-  /*#a3e856 42.04%, /* Verde intermediário */
-  /*#85d82b 55.12%, /* Verde intenso */
-  /*#72b11f 71.54%, /* Verde principal */
-  /*#609417 100%);  /* Verde escuro */
+  background: linear-gradient(157.81deg)
+    #e6f9d1 
+    #c4f08f 
+    #a3e856 
+    #85d82b 
+    #72b11f 
+    #609417 
 }
+
 
 .bg-black-gradient {
   background: linear-gradient(144.39deg,
