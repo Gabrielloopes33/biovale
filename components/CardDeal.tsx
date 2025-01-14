@@ -12,7 +12,13 @@ const CardDeal: React.FC = () => (
       <Button styles="mt-10" />
     </div>
     <div className={layout.sectionImg}>
-      <Image src={card} alt="card" className="w-[150%] h-[100%]" />
+      <Image 
+      src="/assets/card.png" 
+      alt="card" 
+      className="w-[150%] h-[100%]" 
+      width='100' 
+      height='100' 
+      />
     </div>
   </section>
 );

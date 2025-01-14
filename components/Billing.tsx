@@ -5,9 +5,11 @@ const Billing: React.FC = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <Image
-        src={bill}
+        src="/assets/bill.png"
         alt="billing"
         className="w-[100%] h-[100%] relative z-[5]"
+        width='100'
+        height='100'
       />
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
       <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
