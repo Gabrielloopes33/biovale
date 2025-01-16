@@ -5,7 +5,7 @@ import Image from "next/image";
 const CardDeal: React.FC = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
+      <h2 className={styles.heading2} >
       Descarte sem custo para qualquer pessoa ou empresa.
       </h2>
      
@@ -15,7 +15,7 @@ const CardDeal: React.FC = () => (
       <Image 
       src="/assets/card.png" 
       alt="card" 
-      className="w-[150%] h-[100%]" 
+      className="w-[150%] h-[100%] animate-bounce animate-infinite animate-duration-[2000ms] animate-delay-500 animate-ease-in-out" 
       width='100' 
       height='100' 
       />

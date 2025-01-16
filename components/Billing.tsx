@@ -7,16 +7,16 @@ const Billing: React.FC = () => (
       <Image
         src="/assets/bill.png"
         alt="billing"
-        className="w-[100%] h-[100%] relative z-[5]"
+        className="w-[100%] h-[100%] relative z-[5] animate-wiggle animate-infinite animate-duration-1000 animate-delay-500"
         width='100'
         height='100'
       />
-      <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
-      <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient" />
+      <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient animate-pulse animate-duration-1000 animate-delay-500" />
+      <div className="absolute z-[0] -left-1/2 bottom-0 w-[50%] h-[50%] rounded-full pink__gradient animate-pulse animate-duration-1000 animate-delay-500" />
     </div>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        O que fazemos? <br className="sm:block hidden" /> 
+        O que fazemos? <br className="sm:block hidden " /> 
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Oferecemos coleta e descarte de lixo eletrônico de forma segura e eficiente, contribuindo para a redução de impactos ambientais.
@@ -24,17 +24,17 @@ const Billing: React.FC = () => (
       <br>
       </br>
 
-      <div className=" flex flex-row items-center py-[6px] px-6 bg-discount-gradient rounded-[10px] mb-2">
+      <div className=" flex flex-row items-center py-[6px] px-6 bg-discount-gradient rounded-[10px] mb-2 animate-shake animate-once animate-duration-1000 animate-delay-500">
         <p className={`${styles.paragraph} `}>
 
-          <span className="text-white">Coleta gratuita de lixo eletrônico.</span> 
+          <span className="text-white ">Coleta gratuita de lixo eletrônico.</span> 
         </p>
       </div>
 
       <br>
       </br>
 
-      <div className=" flex flex-row items-center py-[6px] px-6 bg-discount-gradient rounded-[10px] mb-2">
+      <div className=" flex flex-row items-center py-[6px] px-6 bg-discount-gradient rounded-[10px] mb-2 animate-shake animate-once animate-duration-1000 animate-delay-500">
         <p className={`${styles.paragraph} `}>
 
           <span className="text-white">Reciclagem de eletrônicos corporativos.</span> 
@@ -44,7 +44,7 @@ const Billing: React.FC = () => (
       <br>
       </br>
 
-      <div className=" flex flex-row items-center py-[6px] px-6 bg-discount-gradient rounded-[10px] mb-2">
+      <div className=" flex flex-row items-center py-[6px] px-6 bg-discount-gradient rounded-[10px] mb-2 animate-shake animate-once animate-duration-1000 animate-delay-500">
         <p className={`${styles.paragraph} `}>
 
           <span className="text-white">Consultoria para empresas no

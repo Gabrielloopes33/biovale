@@ -5,6 +5,8 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     './styles/**/*.{js,jsx,ts,tsx}',
+    "./src/**/*.{html,js}",
+
   ],
   theme: {
     extend: {
@@ -27,5 +29,7 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-animated')
+  ],
 };

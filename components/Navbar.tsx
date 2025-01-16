@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <Image src={logo} alt="Biovale" width={200} height={10} />
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+      <ul className="list-none sm:flex hidden justify-end items-center flex-2">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -24,8 +24,8 @@ const Navbar: React.FC = () => {
         <Image src={toggle ? close : menu}
           alt="menu"
           className="object-contain"
-          width={28}
-          height={28}
+          width={50}
+          height={50}
           onClick={() => setToggle((prev) => !prev)} />
         <div className={`${toggle ? 'flex' : 'hidden'}
             p-6 bg-black-gradient absolute top-20 ring-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}>
