@@ -19,6 +19,10 @@ module.exports = {
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+        'spin-slow-reverse': 'spin 8s linear infinite reverse',
+      },
     },
     screens: {
       xs: "480px",

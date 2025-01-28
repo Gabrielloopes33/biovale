@@ -1,24 +1,35 @@
 "use client"
+import { useEffect } from "react";
 import styles from "@/styles/style";
 import { Navbar, Hero, Stats, Business, Billing, CardDeal, Testimonials, Clients, CTA, Footer, } from "@/components"
-
+import ParticlesBackground from "@/components/ParticlesBackground";
 
 const Home: React.FC = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <>
-      <div className="bg-primary w-full overflow-x-hidden" >
-        <head> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /></head>
-        <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className="w-full overflow-hidden scroll-smooth">
+        <ParticlesBackground />
+        
+        {/* Navbar Section */}
+        <div className={`${styles.paddingX} ${styles.flexCenter} relative z-[1] py-2`}>
           <div className={`${styles.boxWidth}`}>
             <Navbar />
           </div>
         </div>
-        <div className={`bg-primary ${styles.flexStart}`}>
+
+        {/* Hero Section */}
+        <div className={`${styles.flexStart} relative z-[1] pt-2`}>
           <div className={`${styles.boxWidth}`}>
             <Hero />
           </div>
         </div>
-        <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
+
+        {/* Rest of the content */}
+        <div className={`${styles.paddingX} ${styles.flexStart} relative z-[1]`}>
           <div className={`${styles.boxWidth}`}>
             <Stats />
             <Business />

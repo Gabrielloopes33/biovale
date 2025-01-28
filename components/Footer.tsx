@@ -2,17 +2,19 @@ import styles from "@/styles/style";
 import { logo } from "@/public/assets";
 import { footerLinks, socialMedia } from "@/constants";
 import Image from "next/image";
+
 const Footer: React.FC = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
     <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-1 flex flex-col justify-start mr-10">
         <Image
           src={logo}
-          alt="hoobank"
-          className="w-[266px] h-[72px] object-contain"
+          alt="Biovale"
+          className="w-[220px] h-[150px] object-contain"
+          priority
         />
         <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
-        Transformando lixo Eletrônicos em Sustentabilidade
+          Transformando lixo Eletrônicos em Sustentabilidade
         </p>
       </div>
       
