@@ -1,7 +1,10 @@
 import "@/styles/globals.css";
 export const metadata = {
-  title: "HooBank",
-  description: "Hoobank is an Modern Landing Page built with Next JS and Typescript",
+  title: 'BIOVALE - Soluções Ambientais',
+  description: 'BIOVALE - Soluções Ambientais',
+  icons: {
+    icon: '/isobio (1).svg',
+  },
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode; }) => {
